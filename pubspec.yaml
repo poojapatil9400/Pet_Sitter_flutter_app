@@ -63,17 +63,10 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
+  
   assets:
-    - assest/sittericon.png
-    - assest/homeicon.png
-    - assest/Chat.png
-    - assest/Card.png
-    - assest/Calendar.png
-    - assest/Eyeicons.png
-    - assest/heartIcon.png
-    - assest/earningicon.png
-    - assest/caleIcon.png
-    - assest/profilephoto.png
+    - assets/
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

@@ -72,7 +72,7 @@ class ServicesListSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(35),
@@ -96,15 +96,25 @@ class ServicesListSection extends StatelessWidget {
             child: Row(
               children: [
                 /// ---- LEFT ICON ----
-                Container(
-                  width: 56,
-                  height: 56,
-                  decoration: BoxDecoration(
-                    color: const Color(0xFFFFE36E),
-                    borderRadius: BorderRadius.circular(16),
-                  ),
-                  child: const Icon(Icons.pets, size: 30, color: Colors.black),
+             Container(
+              width: 56,
+              height: 56,
+              decoration: BoxDecoration(
+                color: const Color(0xFFFFE36E),
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(10),
+                child: Image.asset(
+                  'assets/stethoscope.png',
+                  width: 30,
+                  height: 30,
+                  fit: BoxFit.contain,
                 ),
+
+              ),
+            ),
+
 
                 const SizedBox(width: 14),
 

@@ -38,13 +38,13 @@ class _HomeScreenState extends State<HomeScreen> {
         items: [
           BottomNavigationBarItem(
             icon: Image.asset(
-              'assest/homeicon.png',
+              'assets/homeicon.png',
               width: 24,
               height: 24,
               color: Colors.grey, // unselected color
             ),
             activeIcon: Image.asset(
-              'assest/homeicon.png',
+              'assets/homeicon.png',
               width: 24,
               height: 24,
               color: Colors.black, // selected color
@@ -54,13 +54,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
           BottomNavigationBarItem(
             icon: Image.asset(
-              'assest/sittericon.png',
+              'assets/sittericon.png',
               width: 24,
               height: 24,
               // color: Colors.grey, // unselected color
             ),
             activeIcon: Image.asset(
-              'assest/sittericon.png',
+              'assets/sittericon.png',
               width: 24,
               height: 24,
               // color: AppColors.primary, // selected color
@@ -70,13 +70,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
           BottomNavigationBarItem(
             icon: Image.asset(
-              'assest/Calendar.png',
+              'assets/Calendar.png',
               width: 24,
               height: 24,
               color: Colors.grey, // unselected color
             ),
             activeIcon: Image.asset(
-              'assest/Calendar.png',
+              'assets/Calendar.png',
               width: 24,
               height: 24,
               color: Colors.black, // selected color
@@ -86,13 +86,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
           BottomNavigationBarItem(
             icon: Image.asset(
-              'assest/Card.png',
+              'assets/Card.png',
               width: 24,
               height: 24,
               color: Colors.grey, // unselected color
             ),
             activeIcon: Image.asset(
-              'assest/Card.png',
+              'assets/Card.png',
               width: 24,
               height: 24,
               color: Colors.black, // selected color
@@ -102,13 +102,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
           BottomNavigationBarItem(
             icon: Image.asset(
-              'assest/Chat.png',
+              'assets/Chat.png',
               width: 24,
               height: 24,
               color: Colors.grey, // unselected color
             ),
             activeIcon: Image.asset(
-              'assest/Chat.png',
+              'assets/Chat.png',
               width: 40,
               height: 40,
               color: Colors.black, // selected color
@@ -207,7 +207,7 @@ class HomeDashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(35),
@@ -232,32 +232,32 @@ class HomeDashboard extends StatelessWidget {
               StatCard(
                 title: 'Views',
                 value: '999,000',
-                assets: 'assest/Eyeicons.png',
+                assets: 'assets/Eyeicons.png',
                 color: Colors.blue,
               ),
               StatCard(
                 title: 'Likes',
                 value: '999,000',
-                assets: 'assest/heartIcon.png',
+                assets: 'assets/heartIcon.png',
                 color: Colors.red,
               ),
               StatCard(
                 title: 'Bookings',
                 value: '999,000',
-                assets: 'assest/caleIcon.png',
+                assets: 'assets/caleIcon.png',
                 color: AppColors.primary,
               ),
               StatCard(
                 title: 'Earnings',
                 value: '999,000',
-                assets: 'assest/earningicon.png',
+                assets: 'assets/earningicon.png',
                 color: Colors.green,
               ),
             ],
           ),
           // const SizedBox(height: 24),
-          Padding(
-            padding: const EdgeInsets.all(16),
+          const Padding(
+            padding: EdgeInsets.all(16),
             child: RatingsAndReviewsSection(),
           ),
           // const Text('4.8 ⭐⭐⭐⭐⭐'),
@@ -326,7 +326,7 @@ class RatingsAndReviewsSection extends StatelessWidget {
 
               Container(
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.only(
+                  borderRadius: const BorderRadius.only(
                     bottomLeft: Radius.circular(25),
                     bottomRight: Radius.circular(25),
                   ),
@@ -385,8 +385,8 @@ class RatingsAndReviewsSection extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Row(
-                          children: const [
+                        const Row(
+                          children: [
                             Expanded(
                               child: Text(
                                 'Avantika Agarwal',

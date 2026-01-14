@@ -82,16 +82,16 @@ class CustomersTabUI extends StatelessWidget {
                           const CircleAvatar(
                             radius: 28,
                             backgroundImage: AssetImage(
-                              'assest/profilephoto.png', // placeholder
+                              'assets/profilephoto.png', // placeholder
                             ),
                           ),
                           const SizedBox(width: 14),
 
                           /// Text Info
-                          Expanded(
+                          const Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Text(
                                   'Carlitta Pusso',
                                   style: TextStyle(

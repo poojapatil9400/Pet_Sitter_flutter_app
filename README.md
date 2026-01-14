@@ -24,7 +24,7 @@ The app focuses on clean UI, smooth navigation, and a user-friendly experience.
 
 ## 📸 Screenshots
 
-<img src="assest/screenshots/screen1.jpeg" width="220"/>
-<img src="assest/screenshots/screen2.jpeg" width="220"/>
-<img src="assest/screenshots/screen3.jpeg" width="220"/>
+<img src="assets/screenshots/screen1.jpeg" width="220"/>
+<img src="assets/screenshots/screen2.jpeg" width="220"/>
+<img src="assets/screenshots/screen3.jpeg" width="220"/>
 
