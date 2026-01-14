@@ -1,16 +1,32 @@
-# flutter_app
 
-A new Flutter project.
 
-## Getting Started
+# 🐾 Pet Sitter Flutter App
 
-This project is a starting point for a Flutter application.
+A Flutter-based mobile application designed to help pet owners easily find and manage pet sitting services.  
+The app focuses on clean UI, smooth navigation, and a user-friendly experience.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Features
+- Clean and responsive UI
+- Pet sitter service screens
+- Reusable Flutter widgets
+- Smooth navigation
+- Cross-platform support (Android, iOS, Web)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+- **Framework:** Flutter
+- **Language:** Dart
+- **IDE:** VS Code / Android Studio
+- **UI:** Material Design
+
+---
+
+## 📂 Project Structure
+## 📸 Screenshots
+
+<img src="asset/screenshots/screen1.jpeg" width="220"/>
+<img src="asset/screenshots/screen2.jpeg" width="220"/>
+<img src="asset/screenshots/screen3.jpeg" width="220"/>
